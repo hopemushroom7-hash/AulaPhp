@@ -14,20 +14,15 @@
 
         <h3>Cadastro de Alunos</h3>
 
-        <form action="aluno_cadastro1.php" method="post">
+        <form action="curso_cadastro1.php" method="post">
             <p>
-                Digite o nome do aluno <br>
+                Informe o nome do curso <br>
                 <input type="text" name="nome">
             </p>
 
             <p>
-                Digite a cidade do aluno <br>
-                <input type="text" name="cidade">
-            </p>
-
-            <p>
-                Digite o estado <br>
-                <input type="text" name="estado">
+                Informe o nome do coordenador <br>
+                <input type="text" name="coordenador">
             </p>
 
             <p>
@@ -41,5 +36,3 @@
 
 </body>
 </html>
-
-               
