@@ -20,9 +20,9 @@
             include "conexao.php";
 
             $nome = $_REQUEST["nome"];
-            $cidade = $_REQUEST["cidade"];
+            $coordenador = $_REQUEST["coordenador"];
 
-            $sql = "insert into alunos (nome, coordenador) values (:nome, :coordenador)";
+            $sql = "insert into curso (nome, coordenador) values (:nome, :coordenador)";
 
             $result = $conexao->prepare($sql);
             $result->bindValue(":nome", $nome);

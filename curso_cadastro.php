@@ -12,7 +12,7 @@
 
     <div class="conteudo">
 
-        <h3>Cadastro de Alunos</h3>
+        <h3>Cadastro de Cursos</h3>
 
         <form action="curso_cadastro1.php" method="post">
             <p>
